@@ -1,0 +1,87 @@
+.container {
+    margin-top: 100px;
+    height: 500px;
+    width: 800px;
+}
+
+.container .box-image {
+    border: 1px solid black;
+    height: 500px;
+    position: relative;
+}
+
+.box-image .prev-button {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 36px;
+    background-color: rgba(128, 128, 128, 0.6);
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.box-image .next-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 36px;
+    background-color: rgba(128, 128, 128, 0.6);
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.box-image i.fas {
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+.box-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box-image .row {
+    justify-content: center;
+}
+.box-image .position-dot {
+    position: absolute;
+    left: 41%;
+    bottom: 10px;
+}
+
+.box-image .point{
+    width: 10px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.box-image .position-dot .active-color {
+    background-color: white;
+}
+.box-image .position-dot .disable-color {
+    background-color: grey;
+}
+
+.container .buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+.container .buttons button {
+    font-size: 24px;
+}
+.container .buttons .red-button{
+    background-color: red;
+}
+
+.container .buttons .green-button{
+    background-color: green;
+}
